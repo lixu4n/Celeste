@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .navbar-nav {
+    display:flex;
+    list-style: none;
+
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-right: 15px; /* Adjust spacing between navbar items */
+  }
+  
+  .navbar-item.active a {
+    font-weight: bold; /* Example: Highlight the active link */
+  }
+  
+  .navbar-item a{
+    text-decoration: none;
+    color: #333;
+    font-size: 13px; /* Change the font size */
+  }

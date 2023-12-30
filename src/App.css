@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Martian+Mono:wght@100;400;700&family=Montserrat:wght@200;600&family=Mukta:wght@200;600&display=swap');
+
+/* Apply the fonts to all elements */
+* {
+  font-family: 'Martian Mono', monospace; /* Use your preferred font here */
+ }
+ 
+ h1 {
+  font-family: 'Martian Mono', monospace; /* Use your preferred font here */
+ }
+ 
+ h2 {
+  font-family: 'Montserrat', sans-serif; /* Use your preferred font here */
+ }
+ 
+ p {
+  font-family: 'Mukta', sans-serif; /* Use your preferred font here */
+ }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
