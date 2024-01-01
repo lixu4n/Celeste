@@ -7,10 +7,15 @@ class NavBar extends React.Component {
         this.state = {
             selectedPage: ""
         };
+        this.handlePageChange = this.handlePageChange.bind(this);
     }
 
     handlePageChange(selectedPage) {
         this.setState({ selectedPage });
+        const element = document.getElementById(selectedPage);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
     }
 
     render() {
@@ -19,19 +24,15 @@ class NavBar extends React.Component {
             <nav className="navbar">
                 <ul className="navbar-nav">
                     <li className={`navbar-item ${selectedPage === "home" ? "active" : ""}`}>
-                        <a href="#" onClick={() => this.handlePageChange("home")}>home</a>
+                        <a href="#home" onClick={() => this.handlePageChange("home")}>home</a>
                     </li>
         
                     <li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
-                        <a href="#" onClick={() => this.handlePageChange("experience")}>experience</a>
+                        <a href="#experience" onClick={() => this.handlePageChange("experience")}>experience</a>
                     </li>
                     <li className={`navbar-item ${selectedPage === "projects" ? "active" : ""}`}>
-                        <a href="#" onClick={() => this.handlePageChange("projects")}>projects</a>
+                        <a href="#projects" onClick={() => this.handlePageChange("projects")}>projects</a>
                     </li>
-
-            
-                    
-                    
                 </ul>
             </nav>
         );

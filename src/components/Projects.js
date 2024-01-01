@@ -19,10 +19,12 @@ class Projects extends React.Component {
                                        
                                         <div className="card-body">
                                             <h2 className="card-title">Personal Website</h2>
-                                            <h2 className="card-title" style={{ color: "#ffc800;" }}>Web Page</h2>
-                                            <p className="card-text">The first iteration of my personal website.</p>
+                                            <h2 className="card-title" style={{ color: "#ffc800;" }}>Portfolio Website</h2>
+                                            <p className="card-text">The first iteration of my personal website. Showcases my projects and my experience. Hosted on GitHub Pages. </p>
                                             <button className="card-button">React</button>
                                             <button className="card-button">JavaScript</button>
+                                            <button className="card-button">GithHub Pages</button>
+                                            <button className="card-button">HTML & CSS</button>
                                  
                                         </div>
                                     </div>
@@ -50,9 +52,9 @@ class Projects extends React.Component {
                                     <div className="card">
                                       
                                         <div className="card-body">
-                                            <h2 className="card-title">Yums! Grocery Store Front-End Development Project</h2>
-                                            <h2 className="card-title" style={{ color: "#ffc800;" }}>Web Page</h2>
-                                            <p className="card-text">This simple responsive website designed in the scope of a User Interface course. The deployed version focuses on front-end development. </p>
+                                            <h2 className="card-title">Front-End Development Project</h2>
+                                            <h2 className="card-title" style={{ color: "#ffc800;" }}>Website</h2>
+                                            <p className="card-text">This simple responsive website was designed in the scope of a User Interface assignement. The deployed version focuses on front-end development. </p>
                                             <button className="card-button">HTML5</button>
                                             <button className="card-button">CSS</button>
                                             <button className="card-button">JavaScript</button>

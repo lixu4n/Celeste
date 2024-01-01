@@ -11,6 +11,8 @@ class Experience extends React.Component {
             Incoming Student @ GC - PSPC - 
                     Digital Services Branch - Vendor Management Team 
           </h3>
+
+          <p>Winter 2024 Work Term</p>
         </div>
  
           
@@ -51,12 +53,16 @@ class Experience extends React.Component {
 
 
                     <p> I managed and manipulated databases systems of 10K+ users on Opentext Directories and I
-                     Generated over 25+ weekly reports on our system performances which provided valuable 
+                     generated over 25+ weekly reports on our system performances which provided valuable 
                      insights and statistical data for teams and clients.
 
                     </p>
                     <p>
-                      Technologies & Frameworks: Jira, OS, Opentext Directories, GCDocs. 
+                      Certifications & Training: 3-0188 OpenText Content Server System Administration
+                    </p>
+                   
+                   <p>
+                      Technologies & Frameworks: Jira, OS, Opentext Directory Services, GCDocs. 
                     </p>
                   </td>
                 </tr>
