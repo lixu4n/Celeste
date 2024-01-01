@@ -13,10 +13,11 @@ class Experience extends React.Component {
           </h3>
         </div>
  
-          <h2 className="workExperienceTitle">Government of Canada </h2>
+          
           
           <div className="workExperienceMain">
             <table className="workExperienceTable">
+            <h2>Government of Canada </h2>
               <tbody>
                 <tr>
                   <th scope="row" style={{ width: "100%" }}>
