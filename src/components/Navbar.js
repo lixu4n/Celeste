@@ -21,9 +21,7 @@ class NavBar extends React.Component {
                     <li className={`navbar-item ${selectedPage === "home" ? "active" : ""}`}>
                         <a href="#" onClick={() => this.handlePageChange("home")}>home</a>
                     </li>
-                    <li className={`navbar-item ${selectedPage === "skills" ? "active" : ""}`}>
-                        <a href="#" onClick={() => this.handlePageChange("skills")}>skills</a>
-                    </li>
+        
                     <li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
                         <a href="#" onClick={() => this.handlePageChange("experience")}>experience</a>
                     </li>
@@ -31,9 +29,7 @@ class NavBar extends React.Component {
                         <a href="#" onClick={() => this.handlePageChange("projects")}>projects</a>
                     </li>
 
-                    <li className={`navbar-item ${selectedPage === "img" ? "active" : ""}`}>
-                        <img src={'/night_mode_icon.png'} alt="Night Mode"style={{ width: '15px', height: '15px' }} />
-                     </li>
+            
                     
                     
                 </ul>

@@ -1,11 +1,51 @@
+* {
+    font-family: 'Martian Mono', monospace; 
+  }
+  
+  h1 {
+    font-family: 'Martian Mono', monospace;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+
+  a {
+    text-decoration: none;
+  }
+
+.sectionCentralHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    
+
+}
+
+.grid-item {
+    margin-bottom: 20px; /* Add space between cards */
+    margin-top:20px;
+    width: calc(33.33% - 30px); /* Adjust width; 20px for margin between cards */
+    display: inline-block; /* Ensure inline display to enable width adjustments */
+    vertical-align: top; /* Align cards to the top */
+    padding-right: 20px; /* Add some padding to the right */
+  }
+
 .card {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
+    maring-top:20px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Include padding in width calculation */
   }
+  
+
   
   .card img {
     width: 100%;
@@ -41,6 +81,6 @@
   }
   
   .card-button:hover {
-    background-color: #e5e5e5;
+    background-color: #940000;
   }
   
