@@ -1,6 +1,5 @@
 /* Experience.css */
-
-/* Apply base font-family */
+/* base font-family */
 * {
     font-family: 'Martian Mono', monospace; 
   }
@@ -13,24 +12,30 @@
     font-family: 'Montserrat', sans-serif; 
   }
   
-  /* Work Experience section */
+  /*  Experience section */
   
   #WorkExperience {
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
   }
+
+  
   
   .project-section-heading {
     text-align: justify;
     margin-bottom: 40px;
-    margin-left: 355px;
-    margin-right: 355px;
+    max-width: 50%; 
+    text-align: center;
   }
   
   .sectionCentralHeading {
     font-size: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
+    
   }
   
   .section-subheading {
@@ -39,58 +44,68 @@
     font-weight: bold;
   }
   
+  .workExperienceTitle,
+  .workExperienceMain,
+  .workTermDate {
+    max-width: 45%;
+    text-align: left;
+  }
   .workExperienceTitle {
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-left: 355px;
-    margin-right: 355px;
-    text-align: justify;
-  }
-  
-  .workExperienceMain {
-    font-size: 20px;
-    max-width: 50%;
+    max-width: 70%;
+    text-align: left;
+    
 
-    text-align: justify;
-    margin-top: 20px;
-    margin-left: 355px;
-    margin-right: 355px;
   }
-  
+  .workExperienceMain,
+  .workTermDate {
+    margin-bottom: 20px;
+    text-align: justify;
+
+  }
+
   .workExperienceTable {
     width: 100%;
     border-collapse: collapse;
-
   }
   
-  
   .workExperienceTable th {
-    width: 20%;
+    width: 25%;
     font-weight: bold;
     font-size: 15px;
   }
   
   .workExperienceTable td {
-    padding: 10px 0;
-    font-size: 10px;
+    font-size: 20px;
 
   }
+  
   .workTermDate {
     font-size: 12px;
-
     margin-bottom: 10px;
-    /* Add any additional styling you prefer */
+
   }
-  
-  
   
   .workExperienceTable p {
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 20px;
   }
-
+  
   .workExperienceTable b {
     font-size: 15px;
   }
   
+  /* Responsive  */
+  
+  @media (max-width: 768px) {
+    .project-section-heading,
+    .workExperienceTitle,
+    .workExperienceMain,
+    .workTermDate,
+    .workExperienceTable {
+      max-width: 90%; /* Adjust for smaller screens */
+
+    }
+
+    
+  }
   

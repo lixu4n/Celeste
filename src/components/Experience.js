@@ -12,7 +12,7 @@ class Experience extends React.Component {
                     Digital Services Branch - Vendor Management Team 
           </h3>
         </div>
-        <div className="container text-center">
+ 
           <h2 className="workExperienceTitle">Government of Canada </h2>
           
           <div className="workExperienceMain">
@@ -38,6 +38,7 @@ class Experience extends React.Component {
 
                 </div>
                     <p>
+
                     During my time as a student in the Incident Team for Public Service and Procurement Canada (PSPC),
                     I collaborated 
                       with cross-functional teams through Jira and triage mailboxes 
@@ -54,14 +55,14 @@ class Experience extends React.Component {
 
                     </p>
                     <p>
-                      Technologies & Frameworks: Jira, OS, Opentext Directories, GCDocs, 
+                      Technologies & Frameworks: Jira, OS, Opentext Directories, GCDocs. 
                     </p>
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
-        </div>
+  
       </section>
     );
   }
