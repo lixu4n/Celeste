@@ -1,7 +1,8 @@
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
-import Skills from './components/Skills';
 import Footer from './components/Footer';
+import Experience from './components/Experience';
+
 import './App.css';
 
 function App() {
@@ -11,8 +12,12 @@ function App() {
       <div id="content">
         <Navbar></Navbar>
         <Intro></Intro>
+
+        <Experience></Experience>
         
-        <Skills></Skills>
+        
+
+        <Footer></Footer>
 
      
       </div>

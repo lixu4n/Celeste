@@ -6,27 +6,29 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-       <hr className="divider" /> {/* Divider */}
-          <span claxssName="intro-title">
-            hi, my name is
-            <span className="intro-name"> Céleste</span>
+       
+          <span className="intro-title">
+            👋🏻 Hi I'm
+            <span className="intro-name"> Céleste Duguay</span>
           </span>
         
-          <div className="intro-subtitle">4th year computer science student @ university of ottawa</div>
+          <div className="intro-subtitle">4th year Computer Science student @ University of Ottawa</div>
          
          
           <div className="intro-description">
   <p>
-    i'm a computer science student and artist based in Ottawa. i have a great
+    I'm a Computer Science student and artist based in Ottawa. I have a great
     interest in full-stack development, artificial intelligence, art, data visualization,
-    and everything in between.
+    and everything in between. I have an additional minor in Digital Cultures that explore the intersections of art and technology. This intersection allows us to deepen our understanding of human culture and technology's evolving landscape.
   </p>
   <p>
-    "you can do it all but just not all at the same time" - unknown
+  When I'm not in class, you'll catch me on the volleyball court, hitting the gym, experimenting with new recipes,
+  or trying new creative art forms like crocheting.
   </p>
   <p>
-    made with ♡ by céleste duguay
+    Made with ♡ by Céleste Duguay
   </p>
+
 
 
   <a href="https://www.linkedin.com/in/celesteduguay/" className="intro-linkedin" target="_blank">

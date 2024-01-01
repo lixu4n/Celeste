@@ -24,12 +24,13 @@ class Skills extends React.Component {
     );
 
     const tech_stack = [
-      "Typescript",
       "Python",
       "React.js",
       "Java",
+      "Typescript",
       "Javascript ES6+",
-      "C#"
+      "C++"
+    
     ];
 
     return (
@@ -59,3 +60,4 @@ class Skills extends React.Component {
 }
 
 export default Skills;
+

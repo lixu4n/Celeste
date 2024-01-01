@@ -3,7 +3,14 @@
     justify-content: center;
     background-color: #ffffff;
     padding: 10px;
-  }
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Add your desired background color */
+      /* Add other styles for the navbar as needed */
+    }
+
   
   .navbar-nav {
     display:flex;

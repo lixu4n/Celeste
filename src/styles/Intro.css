@@ -15,18 +15,21 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 130px;
 }
 
+/* Rounded border */
+
 .intro-title {
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .intro-name {
   font-weight: bold;
-  font-size: 43px;
+  font-size: 35px;
   text-align: center;
 }
 
@@ -50,11 +53,4 @@ h2 {
 .intro-contactme,
 .intro-github {
   margin-right: 20px;
-}
-
-
-.divider {
-  border: none;
-  border-top: 2px solid #000000;
-  margin: 20px 20px;
 }

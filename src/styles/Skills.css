@@ -16,10 +16,14 @@
     margin: auto;
     max-width: 1000px;
     padding-top: 100px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
   
   .about-description ul {
-    padding-top: 20px;
+    padding-top: 13px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 10px));
@@ -28,8 +32,9 @@
   .about-description li {
     position: relative;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 13px;
     color: var(--slate);
+    
   }
   
   .about-description li::before {
