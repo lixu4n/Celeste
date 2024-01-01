@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c339539b.css",
+    "main.js": "/static/js/main.688a0ace.js",
+    "static/media/linkedin_icon_hover.png": "/static/media/linkedin_icon_hover.b6629205b12e12503749.png",
+    "static/media/github_icon_hover.png": "/static/media/github_icon_hover.11895ecb5289bdcf3e7e.png",
+    "static/media/mail_to_icon_hover.png": "/static/media/mail_to_icon_hover.a6509163e5980057e788.png",
+    "index.html": "/index.html",
+    "main.c339539b.css.map": "/static/css/main.c339539b.css.map",
+    "main.688a0ace.js.map": "/static/js/main.688a0ace.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c339539b.css",
+    "static/js/main.688a0ace.js"
+  ]
+}
