@@ -1,4 +1,4 @@
-
+/*Intro.css*/
 * {
   font-family: 'Martian Mono', monospace; 
 }
@@ -53,4 +53,24 @@ h2 {
 .intro-contactme,
 .intro-github {
   margin-right: 20px;
+}
+
+
+
+
+
+.intro-linkedin:hover {
+  content: url('/Users/lixuanguo/webdev/portfolio-2024/public/linkedin_icon_hover.png'); 
+  height:25px;
+}
+
+
+.intro-github:hover {
+  content: url('/Users/lixuanguo/webdev/portfolio-2024/public/github_icon_hover.png'); 
+  height:25px;
+}
+
+.intro-contactme:hover {
+  content: url('/Users/lixuanguo/webdev/portfolio-2024/public/mail_to_icon_hover.png'); 
+  height:25px
 }

@@ -1,14 +1,14 @@
+/*Nav bar.css */
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #e4d8c4;
     padding: 10px;
   
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff; /* Add your desired background color */
-      /* Add other styles for the navbar as needed */
+
     }
 
   
@@ -20,15 +20,15 @@
   }
   
   .navbar-item {
-    margin-right: 15px; /* Adjust spacing between navbar items */
+    margin-right: 15px; 
   }
   
   .navbar-item.active a {
-    font-weight: bold; /* Example: Highlight the active link */
+    font-weight: bold; 
   }
   
   .navbar-item a{
     text-decoration: none;
-    color: #333;
-    font-size: 13px; /* Change the font size */
+    color: #022C56;
+    font-size: 13px; 
   }

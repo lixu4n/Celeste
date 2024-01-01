@@ -1,3 +1,4 @@
+/*Projects.css */
 * {
     font-family: 'Martian Mono', monospace; 
   }
@@ -25,8 +26,8 @@
   .grid-item {
     margin-bottom: 20px;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center;
   }
   
   .card {
@@ -34,10 +35,10 @@
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #e4d8c4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width:400px; /* Set a fixed width for the cards */
-    height:275x; /* Set a fixed height for the cards */
+    width:400px; 
+    height:275x; 
     box-sizing: border-box;
   }
   
@@ -46,12 +47,12 @@
     font-family: 'Montserrat', sans-serif; 
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #022C56;
   }
   
   .card-text {
     font-size: 1rem;
-    color: #555;
+    color: #022C56;
     margin-bottom: 15px;
   }
   
@@ -63,13 +64,17 @@
     font-size: 0.8rem;
     border: none; 
     border-radius: 20px; 
-    background-color: #000; 
+    background-color: #022C56; 
     color: #fff;
     cursor: pointer;
     text-decoration: none;
   }
   
   .card-button:hover {
-    background-color: #333; 
+    background-color: #ce8e0d; 
+  }
+  .card-title:hover{
+    color: #ce8e0d; 
+
   }
   
