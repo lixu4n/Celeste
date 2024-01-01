@@ -4,7 +4,8 @@ import "../styles/Projects.css";
 class Projects extends React.Component {
     render() {
         return (
-            <section className="page-section" id="Projects">
+    
+            <section className="page-section" id="projects">
                 <div className="project-section-heading"></div>
                 <div className="sectionCentralHeading">Projects</div>
                 <div className="projectContainer">
@@ -68,6 +69,7 @@ class Projects extends React.Component {
                 </div>
 
             
+
             </section>
         );
     }

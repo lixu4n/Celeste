@@ -10,8 +10,6 @@
     width: 100%;
 
     }
-
-  
   .navbar-nav {
     display:flex;
     list-style: none;
@@ -25,6 +23,7 @@
   
   .navbar-item.active a {
     font-weight: bold; 
+    color: #ce8e0d;
   }
   
   .navbar-item a{

@@ -5,7 +5,7 @@ import "../styles/Intro.css";
 class Intro extends React.Component {
   render() {
     return (
-      <div id="intro">
+      <div id="home">
        
           <span className="intro-title">
             👋🏻 Hi I'm
