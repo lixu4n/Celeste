@@ -1,20 +1,32 @@
-## 🛠 set-up
+## Personal Website
+This repository contains the code for my personal website, hosted on [Github pages](https://lixu4n.github.io/Celeste/).
 
-1. Install the dependencies
+FInd the gh-pages branch to see the code [gh-pages](https://github.com/lixu4n/Celeste/tree/gh-pages)
+
+This is the newest releast of my personal website. 
+
+## Demo
+
+![DemonstrationGIFDec28v3](https://github.com/lixu4n/Celeste/blob/main/demoportfolio.gif)
+
+
+## 🛠 Set-Up
+
+1. **Install the Dependencies:**
 
    ```sh
-   npm install or yarn
-   ```
+   npm install
+   # or
+   yarn
+   
+2. **Start the Development Server:
+     ```sh
+    npm run start
+   # or
+   yarn start
 
-2. Start the development server
+## 🚀 Build for Production and Run
 
-   ```sh
-   yarn run start
-   ```
-
-## 🚀 build and run for production
-
-1. Generate a full static production build
 
    ```sh
    npm run build
@@ -25,7 +37,7 @@
 
 
 
-https://www.flaticon.com/free-icons/arrow
+
 
 
 
