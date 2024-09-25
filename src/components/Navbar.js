@@ -26,10 +26,14 @@ class NavBar extends React.Component {
                     <li className={`navbar-item ${selectedPage === "home" ? "active" : ""}`}>
                         <a href="#home" onClick={() => this.handlePageChange("home")}>home</a>
                     </li>
-        
+
                     <li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
-                        <a href="#experience" onClick={() => this.handlePageChange("experience")}>experience</a>
+                        <a href="#experience" onClick={() => this.handlePageChange("about-me")}>experience</a>
                     </li>
+        
+            
+
+
                     <li className={`navbar-item ${selectedPage === "projects" ? "active" : ""}`}>
                         <a href="#projects" onClick={() => this.handlePageChange("projects")}>projects</a>
                     </li>
@@ -40,3 +44,9 @@ class NavBar extends React.Component {
 }
 
 export default NavBar;
+
+
+/*
+ {<li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
+                        <a href="#experience" onClick={() => this.handlePageChange("experience")}>experience</a>
+                    </li>}*/

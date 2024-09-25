@@ -1,24 +1,26 @@
 /*Nav bar.css */
 .navbar {
     display: flex;
-    justify-content: center;
-    background-color: #e4d8c4;
-    padding: 10px;
-  
+    justify-content: right;
+    background-color: #EFF2F1;
+    padding: 15px;
     position: fixed;
     top: 0;
     width: 100%;
+
 
     }
   .navbar-nav {
     display:flex;
     list-style: none;
+    margin-right:10px;
+  
 
     padding: 0;
   }
   
   .navbar-item {
-    margin-right: 15px; 
+    margin-right: 20px; 
   }
   
   .navbar-item.active a {
