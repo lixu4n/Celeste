@@ -3,7 +3,7 @@ html {
 }
 
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Martian+Mono:wght@100;400;700&family=Montserrat:wght@200;600&family=Mukta:wght@200;600&display=swap');
@@ -36,25 +36,18 @@ html {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #EFF2F1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start; /* Aligns content to the left */
+  justify-content: center; /* Centers content vertically */
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 20px; /* Optional: Adds some padding from the left */
 }
+
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 
 import './App.css';
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Navbar></Navbar>
        
         <Intro></Intro>
+
+        <AboutMe></AboutMe>
 
         <Experience></Experience>
        
