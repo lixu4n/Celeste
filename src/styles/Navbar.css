@@ -2,14 +2,31 @@
 .navbar {
     display: flex;
     justify-content: right;
-    background-color: #EFF2F1;
+    background-color: transparent;
     padding: 15px;
     position: fixed;
     top: 0;
     width: 100%;
-
-
+    list-style: none;
+ 
     }
+    
+    .navbar-logo {
+      margin-right: auto;
+      margin-left: 25px;
+      font-size: 15px; 
+      color: #022C56;  
+      font-weight: normal; 
+      text-decoration: none;
+  }
+  
+  .logo {
+      width: auto;  /* Adjust size as needed */
+      height: auto;
+      position:fixed;
+  }
+  
+
   .navbar-nav {
     display:flex;
     list-style: none;
@@ -33,3 +50,4 @@
     color: #022C56;
     font-size: 13px; 
   }
+ 

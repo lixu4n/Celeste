@@ -7,13 +7,14 @@ class Projects extends React.Component {
     
             <section className="page-section" id="projects">
                 <div className="project-section-heading"></div>
-                <div className="sectionCentralHeading">Projects</div>
                 <div className="projectContainer">
+             
                     <div className="post">
                         <div className="postHeader">
                             {/* <h2 className="sectionCentralSecondaryHeading">Current</h2> */}
                         </div>
                         <div className="grid">
+                        <div className="sectionCentralHeading">Projects</div>
                             <div className="grid-item">
                                 <a href="https://github.com/lixu4n/Celeste" className="card-link">
                                     <div className="card">

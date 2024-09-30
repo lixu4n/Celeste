@@ -22,17 +22,24 @@ class NavBar extends React.Component {
         const { selectedPage } = this.state;
         return (
             <nav className="navbar">
-                <ul className="navbar-nav">
+                <div className="navbar-logo">
                     <li className={`navbar-item ${selectedPage === "home" ? "active" : ""}`}>
-                        <a href="#home" onClick={() => this.handlePageChange("home")}>home</a>
+                        <a href="#home" onClick={() => this.handlePageChange("home")}>celeste duguay.</a>
+                    </li>
+                </div>
+
+                <ul className="navbar-nav">
+                    <li className={`navbar-item ${selectedPage === "cover-letter" ? "active" : ""}`}>
+                        <a href="#cover-letter" onClick={() => this.handlePageChange("cover-letter")}>cover letter</a>
                     </li>
 
                     <li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
-                        <a href="#experience" onClick={() => this.handlePageChange("about-me")}>experience</a>
+                        <a href="#experience" onClick={() => this.handlePageChange("experience")}>experience</a>
                     </li>
-        
-            
 
+                    <li className={`navbar-item ${selectedPage === "digital-humanities" ? "active" : ""}`}>
+                        <a href="#digital-humanities" onClick={() => this.handlePageChange("digital-humanities")}>minor</a>
+                    </li>
 
                     <li className={`navbar-item ${selectedPage === "projects" ? "active" : ""}`}>
                         <a href="#projects" onClick={() => this.handlePageChange("projects")}>projects</a>
@@ -44,9 +51,3 @@ class NavBar extends React.Component {
 }
 
 export default NavBar;
-
-
-/*
- {<li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
-                        <a href="#experience" onClick={() => this.handlePageChange("experience")}>experience</a>
-                    </li>}*/

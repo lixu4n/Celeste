@@ -1,0 +1,92 @@
+
+/* Global styles */
+* {
+    font-family: 'Martian Mono', monospace; 
+  }
+  
+  /* Cover Letter styles */
+  #cover-letter {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    padding: 20px; /* Added padding for better spacing */
+  }
+  /* Cover letter specific styles */
+  .cover-letter {
+    font-size: 21px; /* Adjusted font size for consistency */
+    color: #022C56; /* Default text color */
+    max-width: 80%; /* Same as intro description */
+    text-align: left; /* Text alignment */
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: 100px; /* Top margin */
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+  .language-toggle-container {
+    text-align: left; /* Align the toggle to the right */
+    margin-bottom: 20px; /* Space between toggle and content */
+    margin-right: 20px;
+    margin-top: 100px; /* Top margin */
+
+}
+
+.language-toggle {
+    color: #ce8e0d;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    white-space: normal; /* Allow text to wrap */
+    width: 100px; /* Adjust width to control line breaks */
+    text-align: center; /* Center the text */
+    margin-top:25px;
+}
+
+  .language-toggle:hover {
+    color: #ce8e0d; /* Hover color for button */
+  }
+
+  
+  li button {
+    margin-right:8px;
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: #022C56; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+ 
+  }
+  
+  li button:hover {
+    color: #ce8e0d; /* Hover color for buttons */
+    background-color: transparent; /* Keep background transparent */
+  }
+  
+  li.active button {
+    font-weight: bold; /* Bold for active state */
+  }
+
+  .link {
+    font-family: 'Montserrat', sans-serif; 
+    color: #ce8e0d; /* Change this to your desired color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    font-size:18px;
+  }
+  
+  .link:hover {
+    text-decoration: none; /* Underline on hover */
+    color: #022C56; /* Darker shade for hover */
+  }
+  
+  /* Rounded border */
+hr.rounded {
+    border-top: 8px;
+    color:#ce8e0d;
+    border-radius: 5px;
+    margin-left:-15px;
+    margin-top:100px;
+  }
+
+  

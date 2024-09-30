@@ -1,112 +1,116 @@
 /* Experience.css */
 /* base font-family */
-/*file to update*/
 * {
     font-family: 'Martian Mono', monospace; 
-  }
+}
   
-  h1 {
+h1 {
     font-family: 'Martian Mono', monospace;
-  }
+}
   
-  h2 {
+h2 {
     font-family: 'Montserrat', sans-serif; 
-  }
-  
-  /*  Experience section */
-  
-  #experience {
-    padding: 50px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-  }
+}
 
-  
-  
-  .project-section-heading {
+/* Experience section */
+#experience {
+  display: flex;
+  margin-left: 200px;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+}
+
+.project-section-heading {
     text-align: justify;
     margin-bottom: 40px;
     max-width: 50%; 
     text-align: center;
-  }
+}
   
-  .sectionCentralHeading {
+.sectionCentralHeading {
     font-size: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 20px;
-    
-  }
+}
   
-  .section-subheading {
+.section-subheading {
     font-weight: 500;
     font-size: 15px;
     font-weight: bold;
-  }
-  
-  .workExperienceTitle,
-  .workExperienceMain,
-  .workTermDate {
+}
+
+/* New Flexbox Container for Experience Tables */
+.experience-container {
+    display: flex;
+    justify-content: space-between; /* Space between tables */
+    max-width: 100%; /* Adjust as needed */
+    width: 100%; /* Full width */
+    gap: 20px; /* Space between tables */
+}
+
+.workExperienceTitle,
+.workExperienceMain,
+.workTermDate {
     max-width: 45%;
     text-align: left;
-  }
-  .workExperienceTitle {
+}
+
+.workExperienceTitle {
     max-width: 70%;
     text-align: left;
-    
+}
 
-  }
-  .workExperienceMain,
-  .workTermDate {
+.workExperienceMain,
+.workTermDate {
     margin-bottom: 20px;
     text-align: justify;
+}
 
-  }
-
-  .workExperienceTable {
+.workExperienceTable {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  .workExperienceTable th {
+}
+
+.workExperienceTable th {
     width: 25%;
     font-weight: bold;
     font-size: 15px;
-  }
-  
-  .workExperienceTable td {
-    font-size: 20px;
+}
 
-  }
-  
-  .workTermDate {
+.workExperienceTable td {
+    font-size: 20px;
+}
+
+.workTermDate {
     font-size: 12px;
     margin-bottom: 10px;
+}
 
-  }
-  
-  .workExperienceTable p {
+.workExperienceTable p {
     margin-bottom: 10px;
     font-size: 20px;
-  }
-  
-  .workExperienceTable b {
+}
+
+.workExperienceTable b {
     font-size: 15px;
-  }
-  
-  /* Responsive  */
-  
-  @media (max-width: 768px) {
+}
+
+/* Responsive */
+@media (max-width: 768px) {
     .project-section-heading,
     .workExperienceTitle,
     .workExperienceMain,
     .workTermDate,
     .workExperienceTable {
-      max-width: 90%; /* Adjust for smaller screens */
-
+        max-width: 90%; /* Adjust for smaller screens */
     }
 
-    
-  }
-  
+    /* Stack the tables on smaller screens */
+    .experience-container {
+        flex-direction: column; /* Change to column for smaller screens */
+    }
+}
