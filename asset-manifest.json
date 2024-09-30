@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Celeste/static/css/main.0b2f50e7.css",
-    "main.js": "/Celeste/static/js/main.42f69858.js",
+    "main.css": "/Celeste/static/css/main.7815dccc.css",
+    "main.js": "/Celeste/static/js/main.883e86a9.js",
     "static/media/linkedin_icon_hover.png": "/Celeste/static/media/linkedin_icon_hover.b6629205b12e12503749.png",
     "static/media/github_icon_hover.png": "/Celeste/static/media/github_icon_hover.11895ecb5289bdcf3e7e.png",
     "static/media/mail_to_icon_hover.png": "/Celeste/static/media/mail_to_icon_hover.a6509163e5980057e788.png",
     "static/media/arrow.png": "/Celeste/static/media/arrow.e1e0f08216fb59422a29.png",
     "index.html": "/Celeste/index.html",
-    "main.0b2f50e7.css.map": "/Celeste/static/css/main.0b2f50e7.css.map",
-    "main.42f69858.js.map": "/Celeste/static/js/main.42f69858.js.map"
+    "main.7815dccc.css.map": "/Celeste/static/css/main.7815dccc.css.map",
+    "main.883e86a9.js.map": "/Celeste/static/js/main.883e86a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b2f50e7.css",
-    "static/js/main.42f69858.js"
+    "static/css/main.7815dccc.css",
+    "static/js/main.883e86a9.js"
   ]
 }
