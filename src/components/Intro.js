@@ -30,7 +30,7 @@ class Intro extends React.Component {
     return (
       <div id="home">
         <span className="intro-title">
-          I'm <span className="intro-name">Céleste</span>
+          Hi I'm <span className="intro-name">Céleste</span>
         </span>
 
         <div className="intro-description">
@@ -40,7 +40,7 @@ class Intro extends React.Component {
             </div>
             <div className="text-container">
               <p>
-                I am a 4th year computer science student specializing in web development and data analysis,
+                I am a 4th year computer science student based in Ottawa with interest in web development and data analysis. I am 
                 dedicated to creating impactful, user-centered digital solutions.
               </p>
 
@@ -55,10 +55,6 @@ class Intro extends React.Component {
 
                
               </div>
-
-              <p>
-                  this is in continuous improvement... btw!
-                </p>
             </div>
           </div>
 

@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 
 import './App.css';
 import AboutMe from "./components/AboutMe";
+import CoverLetter from "./components/CoverLetter";
+import DigitalHumanities from "./components/DigitalHumanities";
 
 function App() {
   return (
@@ -13,14 +15,21 @@ function App() {
 
       <div id="content">
         <Navbar></Navbar>
+
+        
        
         <Intro></Intro>
 
+        <CoverLetter></CoverLetter>
+
         <AboutMe></AboutMe>
+
 
         <Experience></Experience>
        
         <Projects></Projects>
+
+        <DigitalHumanities></DigitalHumanities>
 
         <Footer></Footer>
 

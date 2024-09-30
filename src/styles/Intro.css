@@ -16,14 +16,15 @@ h2 {
   margin-left: 200px;
   flex-direction: column;
   align-items: left;
-  margin-top: 200px;
-  margin-bottom: 400px;
+  margin-top: 0px;
+  margin-bottom: 250px;
   margin-right: 200px;
 }
 
 /* Rounded border */
 
 .intro-title {
+  margin-top: 250px;
   font-size: 75px;
   text-align: left;
   margin-bottom: 10px;

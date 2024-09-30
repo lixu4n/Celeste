@@ -1,0 +1,22 @@
+
+* {
+    font-family: 'Martian Mono', monospace; 
+  }
+  
+  h1 {
+    font-family: 'Martian Mono', monospace;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif; 
+  }
+  
+  #digital-humanities {
+    display: flex;
+    margin-left: 200px;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 200px;
+    margin-bottom: 400px;
+    margin-right: 200px;
+  }
