@@ -22,7 +22,7 @@ a {
   flex-direction: column;
   align-items: left;
   justify-content: center; /* Centers content vertically */
-  height: 50vh; /* Full viewport height */
+  height: 100vh; /* Full viewport height */
   width: 100vw; /* Full viewport width */
   background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
 }
@@ -31,10 +31,10 @@ a {
 
   margin-left:0px;
   color:#ccc;
-  flex-direction: column;
   align-items: center; 
   text-align: left;
   font-size: 40px;
+
 }
 
 .projectContainer {
@@ -49,6 +49,8 @@ a {
   flex-wrap: wrap; /* Allow items to wrap */
   justify-content: center; /* Center items horizontally */
   gap: 20px; /* Space between cards */
+  padding-left:20px;
+  padding-right:20px;
   
 }
 

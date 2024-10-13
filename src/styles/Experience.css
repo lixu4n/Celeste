@@ -1,8 +1,6 @@
-/* Experience.css */
-
-/* base font-family */
+/* Base font-family */
 * {
-    font-family: 'Martian Mono', monospace; 
+    font-family: 'Martian Mono', monospace;
 }
 
 h1 {
@@ -10,7 +8,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Experience section */
@@ -28,12 +26,11 @@ h2 {
 .project-section-heading {
     text-align: justify;
     margin-bottom: 40px;
-    max-width: 100%; 
-
+    max-width: 100%;
 }
 
 .sectionCentralHeading {
-    text-align: left;;
+    text-align: left;
     font-size: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -49,71 +46,84 @@ h2 {
 .experience-container {
     display: flex;
     flex-direction: column;
-  }
-  
-  .work-experience-box {
+}
+
+/* Work experience box */
+.work-experience-box {
     display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
     align-items: center;
     justify-content: space-between;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
     background-color: #3c4a65;
-    color: #e9e7e7; /* Text color */
-    transition: 
-    transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animation */
-  }
+    color: #e9e7e7;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-
-  /* Hover effect */
+/* Hover effect */
 .work-experience-box:hover {
-  transform: translateY(-5px); /* Slide up effect */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
-}
-  
-  .work-experience-flex {
-    display: flex;
-    align-items: center; 
-    flex: 1;
-  }
-  
-  .work-experience-logo {
-    width: 100px; /* Adjust size as needed */
-    height: 40px; /* Adjust size as needed */
-    margin-right: 15px; /* Space between logo and text */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-  
-  .work-experience-details {
-    flex: 1; /* Allow details section to take up space */
-  }
-  
-  .work-experience-title {
-    margin: 0; 
+.work-experience-flex {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap; /* Wrap content on smaller screens */
+}
+
+.work-experience-logo {
+    width: 100px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.work-experience-details {
+    flex: 1;
+    min-width: 800px; /* Ensure the text takes some space */
+    margin-right: 10px;
+}
+
+.work-experience-title {
+    margin: 0;
     font-size: 1.1rem;
-  }
-  
-  .work-position-title {
-    margin: 0; 
-    font-size: 0.9rem; 
+}
+
+.work-position-title {
+    margin: 0;
+    font-size: 0.9rem;
     color: #c6b876;
-  }
-  
-  .work-term-date {
-    font-size: 0.9rem; /* Adjust font size */
-    white-space: nowrap; /* Prevent line breaks */
-    margin-left:700px;
-  }
-  
+}
+
+.work-term-date {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    margin-left: auto; /* Align to the right dynamically */
+}
+
 /* Specific background color for the unique class */
 .special-background {
-    background-color: rgba(255, 0, 0, 0.5); /* Example color: semi-transparent red */
+    background-color: rgba(255, 0, 0, 0.5); /* Semi-transparent red */
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
     .project-section-heading,
     .work-experience-box {
-        max-width: 90%; /* Adjust for smaller screens */
+        max-width: 90%;
+        flex-direction: column; /* Stack content vertically */
+        align-items: flex-start; /* Align text left on smaller screens */
+    }
+
+    .work-term-date {
+        margin-left: 0; /* Reset margin for smaller screens */
+        margin-top: 10px; /* Add space between title and date */
+    }
+
+    .work-experience-logo {
+        margin-bottom: 10px; /* Separate logo from the text */
     }
 }
