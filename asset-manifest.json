@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/Celeste/static/css/main.7815dccc.css",
-    "main.js": "/Celeste/static/js/main.883e86a9.js",
-    "static/media/linkedin_icon_hover.png": "/Celeste/static/media/linkedin_icon_hover.b6629205b12e12503749.png",
-    "static/media/github_icon_hover.png": "/Celeste/static/media/github_icon_hover.11895ecb5289bdcf3e7e.png",
-    "static/media/mail_to_icon_hover.png": "/Celeste/static/media/mail_to_icon_hover.a6509163e5980057e788.png",
-    "static/media/arrow.png": "/Celeste/static/media/arrow.e1e0f08216fb59422a29.png",
+    "main.css": "/Celeste/static/css/main.727ae468.css",
+    "main.js": "/Celeste/static/js/main.e2713b02.js",
+    "static/media/logo2.png": "/Celeste/static/media/logo2.21dead5c4f3c4a86c83c.png",
+    "static/media/logo1.png": "/Celeste/static/media/logo1.094bf9a64abff491618b.png",
     "index.html": "/Celeste/index.html",
-    "main.7815dccc.css.map": "/Celeste/static/css/main.7815dccc.css.map",
-    "main.883e86a9.js.map": "/Celeste/static/js/main.883e86a9.js.map"
+    "main.727ae468.css.map": "/Celeste/static/css/main.727ae468.css.map",
+    "main.e2713b02.js.map": "/Celeste/static/js/main.e2713b02.js.map"
   },
   "entrypoints": [
-    "static/css/main.7815dccc.css",
-    "static/js/main.883e86a9.js"
+    "static/css/main.727ae468.css",
+    "static/js/main.e2713b02.js"
   ]
 }
