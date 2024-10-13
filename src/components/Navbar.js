@@ -29,17 +29,15 @@ class NavBar extends React.Component {
                 </div>
 
                 <ul className="navbar-nav">
-                    <li className={`navbar-item ${selectedPage === "cover-letter" ? "active" : ""}`}>
-                        <a href="#cover-letter" onClick={() => this.handlePageChange("cover-letter")}>cover letter</a>
+                  
+                <li className={`navbar-item ${selectedPage === "home" ? "active" : ""}`}>
+                        <a href="#home" onClick={() => this.handlePageChange("home")}>home</a>
                     </li>
-
                     <li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
                         <a href="#experience" onClick={() => this.handlePageChange("experience")}>experience</a>
                     </li>
 
-                    <li className={`navbar-item ${selectedPage === "digital-humanities" ? "active" : ""}`}>
-                        <a href="#digital-humanities" onClick={() => this.handlePageChange("digital-humanities")}>minor</a>
-                    </li>
+        
 
                     <li className={`navbar-item ${selectedPage === "projects" ? "active" : ""}`}>
                         <a href="#projects" onClick={() => this.handlePageChange("projects")}>projects</a>

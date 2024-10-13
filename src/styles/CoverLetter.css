@@ -7,16 +7,19 @@
   /* Cover Letter styles */
   #cover-letter {
     display: flex;
-    margin-left: 200px;
-    margin-top: 10px;
     margin-bottom: 0px;
-    margin-right: 200px;
+
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
     padding: 20px; /* Added padding for better spacing */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+    
   }
   /* Cover letter specific styles */
   .cover-letter {
     font-size: 21px; /* Adjusted font size for consistency */
-    color: #022C56; /* Default text color */
+    color: #ffff; /* Default text color */
     max-width: 80%; /* Same as intro description */
     text-align: left; /* Text alignment */
     margin-left: 0px;
@@ -85,7 +88,7 @@ hr.rounded {
     border-top: 8px;
     color:#ce8e0d;
     border-radius: 5px;
-    margin-left:-15px;
+    margin-left:100px;
     margin-top:100px;
   }
 

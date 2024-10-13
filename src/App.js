@@ -19,17 +19,17 @@ function App() {
         
        
         <Intro></Intro>
-
-        <CoverLetter></CoverLetter>
+        <Experience></Experience>
+  
 
         <AboutMe></AboutMe>
 
 
-        <Experience></Experience>
+
        
         <Projects></Projects>
 
-        <DigitalHumanities></DigitalHumanities>
+
 
         <Footer></Footer>
 

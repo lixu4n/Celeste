@@ -5,10 +5,12 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Martian Mono', monospace;
-  font-size: 9px;
-  color: #022C56;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  font-size: 13px;
+
+  color: #E4D8C4;
+
+
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
 .signature div:first-of-type {
@@ -16,7 +18,7 @@
 }
 
 .signature div:last-of-type {
-  font-size: 9px;
+  font-size: 15px;
   margin-top: 5px;
  
 }

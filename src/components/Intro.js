@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Intro.css";
-import arrow from '../images/arrow.png';
+
 
 class Intro extends React.Component {
   constructor(props) {
@@ -11,10 +11,6 @@ class Intro extends React.Component {
     this.handlePageChange = this.handlePageChange.bind(this);
   }
 
-  /*
-  I will use context switching for my page switch later onn....... LOL 
-
-  */
   handlePageChange(selectedPage) {
     this.setState({ selectedPage });
     const element = document.getElementById(selectedPage);
@@ -24,8 +20,7 @@ class Intro extends React.Component {
   }
 
   render() {
-    const { selectedPage } = this.state;
-    //for now, itll slow down compile time?
+
 
     return (
       <div id="home">
@@ -35,64 +30,22 @@ class Intro extends React.Component {
 
         <div className="intro-description">
           <div className="description-content">
-            <div className="image-container">
-              <img src={arrow} alt="arrow image" className="arrow-image" />
-            </div>
+            <section className="wrapper">
+              <div id="stars"></div>
+              <div id="stars2"></div>
+              <div id="stars3"></div>
+            </section>
+            
             <div className="text-container">
               <p>
                 I am a 4th year computer science student based in Ottawa with interest in web development and data analysis. I am 
                 dedicated to creating impactful, user-centered digital solutions.
               </p>
-
-              <div className="text-link">
-                <p 
-                  href="#experience" 
-                  className={`${selectedPage === "experience" ? "active" : ""}`} 
-                  onClick={() => this.handlePageChange("experience")}
-                >
-                  See my experience ⟶
-                </p>
-
-               
               </div>
             </div>
           </div>
-
-  
-
-
-          {
-            /*
-            <a
-              href="https://www.linkedin.com/in/celesteduguay/"
-              className="intro-linkedin"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="linkedin_icon.png"
-                alt="LinkedIn"
-                style={{ width: "25px", height: "25px" }}
-              />
-            </a>
-
-            <a
-              href="https://github.com/lixu4n"
-              className="intro-github"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="github_icon.png"
-                alt="GitHub Logo"
-                style={{ width: "25px", height: "25px" }}
-              />
-            </a>
-            */
-          }
-
         </div>
-      </div>
+
     );
   }
 }

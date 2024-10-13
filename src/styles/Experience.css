@@ -1,116 +1,119 @@
 /* Experience.css */
+
 /* base font-family */
 * {
     font-family: 'Martian Mono', monospace; 
 }
-  
+
 h1 {
     font-family: 'Martian Mono', monospace;
 }
-  
+
 h2 {
     font-family: 'Montserrat', sans-serif; 
 }
 
 /* Experience section */
 #experience {
-  display: flex;
-  margin-left: 200px;
-  flex-direction: column;
-  align-items: left;
-  margin-top: 200px;
-  margin-bottom: 100px;
-  margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 50vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    color: #fff;
+    overflow-y: auto; /* Allow vertical scrolling */
 }
 
 .project-section-heading {
     text-align: justify;
     margin-bottom: 40px;
-    max-width: 50%; 
-    text-align: center;
+    max-width: 100%; 
+
 }
-  
+
 .sectionCentralHeading {
+    text-align: left;;
     font-size: 30px;
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
-  
+
 .section-subheading {
     font-weight: 500;
     font-size: 15px;
     font-weight: bold;
 }
 
-/* New Flexbox Container for Experience Tables */
 .experience-container {
     display: flex;
-    justify-content: space-between; /* Space between tables */
-    max-width: 100%; /* Adjust as needed */
-    width: 100%; /* Full width */
-    gap: 20px; /* Space between tables */
+    flex-direction: column;
+  }
+  
+  .work-experience-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3c4a65;
+    color: #e9e7e7; /* Text color */
+    transition: 
+    transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animation */
+  }
+
+
+  /* Hover effect */
+.work-experience-box:hover {
+  transform: translateY(-5px); /* Slide up effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+  
+  .work-experience-flex {
+    display: flex;
+    align-items: center; 
+    flex: 1;
+  }
+  
+  .work-experience-logo {
+    width: 100px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    margin-right: 15px; /* Space between logo and text */
 }
 
-.workExperienceTitle,
-.workExperienceMain,
-.workTermDate {
-    max-width: 45%;
-    text-align: left;
-}
-
-.workExperienceTitle {
-    max-width: 70%;
-    text-align: left;
-}
-
-.workExperienceMain,
-.workTermDate {
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-.workExperienceTable {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.workExperienceTable th {
-    width: 25%;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.workExperienceTable td {
-    font-size: 20px;
-}
-
-.workTermDate {
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-
-.workExperienceTable p {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-.workExperienceTable b {
-    font-size: 15px;
+  
+  .work-experience-details {
+    flex: 1; /* Allow details section to take up space */
+  }
+  
+  .work-experience-title {
+    margin: 0; 
+    font-size: 1.1rem;
+  }
+  
+  .work-position-title {
+    margin: 0; 
+    font-size: 0.9rem; 
+    color: #c6b876;
+  }
+  
+  .work-term-date {
+    font-size: 0.9rem; /* Adjust font size */
+    white-space: nowrap; /* Prevent line breaks */
+    margin-left:700px;
+  }
+  
+/* Specific background color for the unique class */
+.special-background {
+    background-color: rgba(255, 0, 0, 0.5); /* Example color: semi-transparent red */
 }
 
 /* Responsive */
 @media (max-width: 768px) {
     .project-section-heading,
-    .workExperienceTitle,
-    .workExperienceMain,
-    .workTermDate,
-    .workExperienceTable {
+    .work-experience-box {
         max-width: 90%; /* Adjust for smaller screens */
-    }
-
-    /* Stack the tables on smaller screens */
-    .experience-container {
-        flex-direction: column; /* Change to column for smaller screens */
     }
 }

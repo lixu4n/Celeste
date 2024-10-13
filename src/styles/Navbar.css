@@ -1,53 +1,62 @@
-/*Nav bar.css */
+/* Nav bar */
 .navbar {
-    display: flex;
-    justify-content: right;
-    background-color: transparent;
-    padding: 15px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style: none;
- 
-    }
-    
-    .navbar-logo {
-      margin-right: auto;
-      margin-left: 25px;
-      font-size: 15px; 
-      color: #022C56;  
-      font-weight: normal; 
-      text-decoration: none;
-  }
-  
-  .logo {
-      width: auto;  /* Adjust size as needed */
-      height: auto;
-      position:fixed;
-  }
-  
+  display: flex;
+  justify-content: right;
+  background-color: transparent;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; /* Ensures the navbar stays above content */
+  list-style: none;
+}
 
-  .navbar-nav {
-    display:flex;
-    list-style: none;
-    margin-right:10px;
-  
+/* Logo styling */
+.navbar-logo {
+  margin-right: auto;
+  margin-left: 25px;
+  font-size: 15px; 
+  color: #022C56;  
+  font-weight: normal; 
+  text-decoration: none;
+}
 
-    padding: 0;
-  }
-  
-  .navbar-item {
-    margin-right: 20px; 
-  }
-  
-  .navbar-item.active a {
-    font-weight: bold; 
-    color: #ce8e0d;
-  }
-  
-  .navbar-item a{
-    text-decoration: none;
-    color: #022C56;
-    font-size: 13px; 
-  }
- 
+.logo {
+  width: auto; /* Auto allows for better responsiveness */
+  height: auto;
+  position: fixed;
+  left: 25px; /* Align logo to the left */
+  top: 15px; /* Same as navbar padding for consistency */
+}
+
+/* Nav items styling */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+/* Highlight active nav item */
+.navbar-item.active a {
+  font-weight: bold; 
+  color: #FFEC8F; /* Highlighted color for the active page */
+}
+
+/* Normal nav links */
+.navbar-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+/* Navbar item hover effect */
+.navbar-item a:hover {
+  color: #FFEC8F; /* Hover effect for nav links */
+  transition: color 0.3s ease;
+}
+
