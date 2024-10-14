@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Celeste/static/css/main.05911ee9.css",
-    "main.js": "/Celeste/static/js/main.e2713b02.js",
+    "main.css": "/Celeste/static/css/main.bf604880.css",
+    "main.js": "/Celeste/static/js/main.f6f4c842.js",
     "static/media/logo2.png": "/Celeste/static/media/logo2.21dead5c4f3c4a86c83c.png",
     "static/media/logo1.png": "/Celeste/static/media/logo1.094bf9a64abff491618b.png",
     "index.html": "/Celeste/index.html",
-    "main.05911ee9.css.map": "/Celeste/static/css/main.05911ee9.css.map",
-    "main.e2713b02.js.map": "/Celeste/static/js/main.e2713b02.js.map"
+    "main.bf604880.css.map": "/Celeste/static/css/main.bf604880.css.map",
+    "main.f6f4c842.js.map": "/Celeste/static/js/main.f6f4c842.js.map"
   },
   "entrypoints": [
-    "static/css/main.05911ee9.css",
-    "static/js/main.e2713b02.js"
+    "static/css/main.bf604880.css",
+    "static/js/main.f6f4c842.js"
   ]
 }
