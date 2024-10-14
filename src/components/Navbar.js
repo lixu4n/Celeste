@@ -24,7 +24,7 @@ class NavBar extends React.Component {
             <nav className="navbar">
                 <div className="navbar-logo">
                     <li className={`navbar-item ${selectedPage === "home" ? "active" : ""}`}>
-                        <a href="#home" onClick={() => this.handlePageChange("home")}>celeste duguay.</a>
+                        <a href="#home" onClick={() => this.handlePageChange("home")}>celeste's space  </a>
                     </li>
                 </div>
 
@@ -36,9 +36,7 @@ class NavBar extends React.Component {
                     <li className={`navbar-item ${selectedPage === "experience" ? "active" : ""}`}>
                         <a href="#experience" onClick={() => this.handlePageChange("experience")}>experience</a>
                     </li>
-
-        
-
+    
                     <li className={`navbar-item ${selectedPage === "projects" ? "active" : ""}`}>
                         <a href="#projects" onClick={() => this.handlePageChange("projects")}>projects</a>
                     </li>

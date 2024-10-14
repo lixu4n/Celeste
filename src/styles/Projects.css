@@ -1,119 +1,142 @@
-/* Projects.css */
-
 * {
-  font-family: 'Martian Mono', monospace; 
+  font-family: 'Martian Mono', monospace; /* Sets a monospace font for all elements */
 }
 
 h1 {
-  font-family: 'Martian Mono', monospace;
+  font-family: 'Martian Mono', monospace; /* Sets a monospace font for h1 elements */
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif; /* Sets a sans-serif font for h2 elements */
 }
 
 a {
-  
-  text-decoration: none;
+  text-decoration: none; 
 }
+
 
 #projects {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center; /* Centers content vertically */
-  height: 100vh; /* Full viewport height */
-  width: 100vw; /* Full viewport width */
-  background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
-}
-
-.sectionCentralHeading {
-
-  margin-left:0px;
-  color:#ccc;
+  flex-direction: column; 
   align-items: center; 
-  text-align: left;
-  font-size: 40px;
-
+  justify-content: center; /* Centers children vertically */
+  height: auto; /* Allows height to adjust based on content */
+  width: 100vw; /* Sets width to full viewport width */
+  background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%); /* Gradient background */
+  padding: 20px 0; 
 }
 
+/* Center Heading Styles */
+.sectionCentralHeading {
+  color: #ccc;
+  text-align: left; 
+  margin-top: 20px;
+}
+
+/* Container for Project Cards */
 .projectContainer {
   display: flex;
-  flex-direction: column; /* Stack items vertically on small screens */
-  align-items: center; /* Center align for main container */
+  flex-direction: column; /* Arranges children in a column */
+  align-items: center; /* Centers children horizontally */
+  margin-top: 20px; /* Space above the container */
+  margin-bottom: 40px; /* Space below the container to prevent overlap */
 }
 
+/* Grid Layout for Project Cards */
 .grid {
-
-  display: flex; /* Flex container */
-  flex-wrap: wrap; /* Allow items to wrap */
-  justify-content: center; /* Center items horizontally */
-  gap: 20px; /* Space between cards */
-  padding-left:20px;
-  padding-right:20px;
-  
+  display: grid; /* Uses CSS Grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  grid-gap: 20px; /* Space between grid items */
+  padding-left: 20px; /* Padding on left */
+  padding-right: 20px; /* Padding on right */
+  padding-top: 20px; /* Padding at the top of the grid */
+  padding-bottom: 20px; /* Padding at the bottom of the grid */
 }
 
+/* Styles for Each Grid Item */
 .grid-item {
   display: flex;
-  justify-content: center; 
-  align-items: center;
-  flex-direction: column; /* Stack content vertically inside each grid item */
-  max-width: 400px; /* Set max width for each card */
-  width: 100%; /* Full width inside grid item */
-  box-sizing: border-box; /* Include padding and border in total width/height */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  flex-direction: column; /* Arranges children in a column */
+  max-width: 400px; /* Maximum width for each item */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Includes padding and border in width calculation */
 }
 
+/* Card Styles */
 .card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 15px;
-  background-color: #c6b876;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Full width of the grid item */
-  height: 275px; /* Corrected height */
-  box-sizing: border-box;
+  border: 1px solid #ccc; /* Border around the card */
+  border-radius: 15px; /* Rounded corners */
+  padding: 15px; /* Padding inside the card */
+  background-color: #c6b876; /* Card background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  width: 100%; /* Full width */
+  height: 275px; /* Fixed height */
+  box-sizing: border-box; /* Includes padding and border in height calculation */
 }
 
+/* Title Styles for Cards */
 .card-title {
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: #022C56;
+  font-family: 'Montserrat', sans-serif; /* Font style for card titles */
+  font-size: 1.2rem; /* Font size */
+  text-align: center; /* Centers title text */
+  margin-bottom: 10px; /* Space below the title */
+  color: #022C56; /* Title text color */
 }
 
+/* Text Styles for Cards */
 .card-text {
-  font-size: 1rem;
-  color: #022C56;
-  margin-bottom: 15px;
+  font-size: 1rem; /* Font size for card text */
+  color: #022C56; /* Text color */
+  margin-bottom: 15px; /* Space below text */
 }
 
+/* Button Styles for Cards */
 .card-button {
-  display: inline-block;
-  padding: 5px 10px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  font-size: 0.8rem;
-  border: none; 
-  border-radius: 20px; 
-  background-color: #022C56; 
-  color: #fff;
-  cursor: pointer;
+  display: inline-block; /* Displays buttons inline */
+  padding: 5px 10px; /* Padding inside buttons */
+  margin-right: 5px; /* Space to the right of buttons */
+  margin-bottom: 5px; /* Space below buttons */
+  font-size: 0.8rem; /* Font size */
+  border: none; /* No border */
+  border-radius: 20px; /* Rounded corners */
+  background-color: #022C56; /* Background color */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Cursor changes to pointer on hover */
   text-decoration: none;
 }
 
+/* Hover Effects for Buttons */
 .card-button:hover {
-  background-color: #ce8e0d; 
+  background-color: #ce8e0d; /* Change background on hover */
 }
 
 .card-title:hover {
-  color: #ce8e0d; 
+  color: #ce8e0d; /* Change title color on hover */
 }
 
-/* Responsive styles */
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on medium screens */
+  }
+}
+
 @media (max-width: 768px) {
   .grid {
-      flex-direction: column; /* Stack items vertically on smaller screens */
-      align-items: center; /* Center items on smaller screens */
+    grid-template-columns: 1fr; /* 1 item per row on small screens */
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row on large screens */
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on medium-large screens */
   }
 }

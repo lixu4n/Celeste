@@ -3,12 +3,14 @@ import "../styles/Intro.css";
 
 
 class Intro extends React.Component {
+
+  // This state will store where my page is currently selected
   constructor(props) {
     super(props);
     this.state = {
       selectedPage: ""
     };
-    this.handlePageChange = this.handlePageChange.bind(this);
+    this.handlePageChange = this.handlePageChange.bind(this); 
   }
 
   handlePageChange(selectedPage) {
@@ -20,8 +22,6 @@ class Intro extends React.Component {
   }
 
   render() {
-
-
     return (
       <div id="home">
         <span className="intro-title">
@@ -30,6 +30,8 @@ class Intro extends React.Component {
 
         <div className="intro-description">
           <div className="description-content">
+
+           
             <section className="wrapper">
               <div id="stars"></div>
               <div id="stars2"></div>
@@ -38,9 +40,11 @@ class Intro extends React.Component {
             
             <div className="text-container">
               <p>
-                I am a 4th year computer science student based in Ottawa with interest in web development and data analysis. I am 
-                dedicated to creating impactful, user-centered digital solutions.
+                I am a 4th year computer science student based in Ottawa with interest in web development, data analysis and product management.
+                I am dedicated to creating impactful, user-centered digital solutions for social good. 
               </p>
+
+
               </div>
             </div>
           </div>
